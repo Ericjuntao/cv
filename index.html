@@ -5,57 +5,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juntao's Personal Website</title>
+    <title>Juntao Wang - Personal Website</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td>
-                <img src="images/Juntao Profile.png" alt="Juntao Wang's profile picture" width="200" height="200">
-            </td>
-            <td>
-                <h1>Juntao Wang</h1>
-                <p><em>A person who have a <strong>dream</strong> , a <strong>heart</strong> and a
-                        <strong>computer</strong>.</em></p>
-                <p>I embrace new things challanges. I may have falled but eventually will rise!</p>
-            </td>
-        </tr>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#education">Experience/Education</a></li>
+            <li><a href="hobby.html">Hobbies</a></li>
+            <li><a href="contactinfo.html">Contact</a></li>
+        </ul>
+    </nav>
 
-    </table>
+    <section class="hero">
+        <div class="hero-background">
+            <div class="slide" style="background-image: url('images/Wallpapers/_JH14359-Enhanced-NR.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/_JH14335-Enhanced-NR.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/_JH14321.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/_JH13810-Enhanced-NR.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/_JH13803-Enhanced-NR.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/StarTrail.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/twoBird.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/BeeHive.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/Leaves.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/Bird_on_scope.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/MirrorLake.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/Lighthouse.jpg')"></div>
+            <div class="slide" style="background-image: url('images/Wallpapers/Seagul_on_shore.jpg')"></div>
+        </div>
+        <div class="hero-content">
+            <img src="images/Juntao Profile.png" alt="Juntao Wang's profile picture" class="profile-img">
+            <h1>Juntao Wang</h1>
+            <p class="hero-subtitle">Researcher & Developer</p>
+            <p class="hero-description">A passionate individual with a dream, a heart, and a computer. Embracing challenges and rising above them.</p>
+            
+            <div class="expertise-section">
+                <h2 class="expertise-title">Let's talk about</h2>
+                <div class="expertise-grid">
+                    <div class="expertise-card">
+                        <h3>Deep Fake Detection</h3>
+                        <div class="expertise-level">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                    </div>
+                    <div class="expertise-card">
+                        <h3>Photo Forensics</h3>
+                        <div class="expertise-level">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                    </div>
+                    <div class="expertise-card">
+                        <h3>Computer Vision</h3>
+                        <div class="expertise-level">
+                            <span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                    </div>
+                    <div class="expertise-card">
+                        <h3>Deep Learning</h3>
+                        <div class="expertise-level">
+                            <span>★</span><span>★</span><span>★</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="experience" class="section">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="experience-grid">
+            <div class="experience-card">
+                <h3>Ambarella Inc</h3>
+                <p class="position">Software Engineer</p>
+                <p class="date">2023 - Present</p>
+                <ul class="experience-details">
+                    <li>Developed and optimized radar signal processing algorithms</li>
+                    <li>Implemented real-time data processing systems</li>
+                    <li>Collaborated with cross-functional teams on radar system integration</li>
+                </ul>
+            </div>
+            <div class="experience-card">
+                <h3>Milwaukee Tools</h3>
+                <p class="position">Software Engineering Intern</p>
+                <p class="date">2022</p>
+                <ul class="experience-details">
+                    <li>Worked on embedded systems development</li>
+                    <li>Contributed to firmware development for power tools</li>
+                    <li>Participated in product testing and validation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-    <hr>
-    <h3>Education</h3>
-    <ul>Bachelor of Computer Engineering at Georgia Tech</ul>
-    <hr>
-    <h3>Skills</h3>
-    <table>
-        
-        <tbody>
-            <tr>
-                <td>Object Oriented Programming</td>
-                <td>⚽⚽⚽⚽⚽</td>
-            </tr>
-            <tr>
-                <td>Embedded System Engineering</td>
-                <td>⚽⚽⚽⚽⚽</td>
-            </tr>
-            <tr>
-                <td>Computer Architecture</td>
-                <td>⚽⚽⚽⚽</td>
-            </tr>
-            <tr>
-                <td>Digital Design</td>
-                <td>⚽⚽⚽</td>
-            </tr>
-        </tbody>
+    <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-content">
+            <div class="education-card">
+                <h3>Georgia Institute of Technology</h3>
+                <p class="degree">Bachelor of Computer Engineering</p>
+                <p class="date">2019 - 2023</p>
+                <p class="details">Relevant Coursework: Computer Architecture, Digital Design, Embedded Systems</p>
+            </div>
+        </div>
+    </section>
 
-    </table>
-    <hr>
-    <a href="hobby.html">My hobbies</a>
-    <a href="contactinfo.html">Contact Info</a>
+    <footer class="section">
+        <div class="contact-links">
+            <a href="hobby.html"><i class="fas fa-heart"></i> My Hobbies</a>
+            <a href="contactinfo.html"><i class="fas fa-envelope"></i> Contact Me</a>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const slides = document.querySelectorAll('.slide');
+            let currentSlide = 0;
+
+            // Set first slide as active
+            slides[0].classList.add('active');
+
+            function nextSlide() {
+                slides[currentSlide].classList.remove('active');
+                currentSlide = (currentSlide + 1) % slides.length;
+                slides[currentSlide].classList.add('active');
+            }
+
+            // Change slide every 60 seconds (1 minute)
+            setInterval(nextSlide, 60000);
+        });
+    </script>
 </body>
 
 </html>
