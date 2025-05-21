@@ -512,6 +512,64 @@ h1 {
     font-weight: 500;
 }
 
+/* Expertise Link Styles */
+.expertise-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
+
+.expertise-link:hover {
+    color: inherit;
+}
+
+/* Expertise Content Page Styles */
+.expertise-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.expertise-description h3 {
+    color: var(--primary-color);
+    margin: 2rem 0 1rem;
+    font-size: 1.5rem;
+}
+
+.expertise-description h3:first-child {
+    margin-top: 0;
+}
+
+.expertise-description p {
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.expertise-description ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.expertise-description ul li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.expertise-description ul li:before {
+    content: "•";
+    color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-links {
